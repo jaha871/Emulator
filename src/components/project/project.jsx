@@ -90,6 +90,7 @@ export const Project = () => {
 
   return (
     <>
+    
       <div className={styles.lewy}>
         <div className={styles.lewyreg}>
           <div className={styles.lewyregc}>
@@ -134,6 +135,7 @@ export const Project = () => {
         </div>
         {error && <p>Podana wartość nie spełnia wymagań.</p>}
       </div>
+      
     </>
   );
 };

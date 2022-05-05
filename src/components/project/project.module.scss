@@ -1,4 +1,6 @@
+
 .lewy {
+  background-color: blue;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -24,13 +26,14 @@
 }
 
 .lewyglowny {
+  color: yellow;
   display: grid;
   grid-template-columns: 150px 150px;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
 }
 button{
-  background-color: blue;
+  background-color: hotpink;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
   width: 65%;
